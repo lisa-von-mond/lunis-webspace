@@ -9,6 +9,15 @@ h1 {
   color: #d0b1ed;
 }
 
+nav{
+  margin-bottom:60px;
+  margin-top:40px;
+}
+
+footer{
+  margin-top:40px;
+}
+
 .main-nav-button {
   height: 30px;
   font-size: 1rem;
@@ -56,15 +65,27 @@ body {
 
 /*CONTACT*/
 
+h3{
+  margin:0px;
+}
 
 .contact-bubble {
-  height: 100px;
+  height: 200px;
   width: 200px;
   border: 3px solid #d0b1ed;
-  border-radius: 30px;
+  border-radius: 50%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  
+}
+
+.contact-container{
+  display:flex;
+  gap:30px;
   margin-bottom: 50px;
-  padding-left: 20px;
-  vertical-align: center;
 }
 
 /*TAG PROJECT*/
@@ -144,7 +165,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   background-color: #d0b1ed;
-  border-radius: 75px;
+  border-radius: 60px;
   padding: 40px;
   gap: 40px;
 }
@@ -250,10 +271,14 @@ h4 {
 }
 
 .sound-file {
-  background-color:#7f36c4;
+  border:3px solid #5c2192;
+  color: #5c2192;
   padding-left:20px;
   border-radius:50px;
-  height:50px;
+  height:40px;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
 
 }
 
