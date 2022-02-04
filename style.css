@@ -7,6 +7,7 @@
 
 h1 {
   color: #d0b1ed;
+  font-size:50px;
 }
 
 nav{
@@ -231,13 +232,13 @@ h4 {
 
 .sound-container {
   height: 280px;
-  width: 1000px;
+  width: 600px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   background-color: #d0b1ed;
-  border-radius: 75px;
+  border-radius: 60px;
   padding: 40px;
   gap: 40px;
 }
