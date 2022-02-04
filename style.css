@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,800;1,900&display=swap");
 
+
 h1 {
   color: #d0b1ed;
 }
@@ -15,6 +16,18 @@ h1 {
   margin-right: 20px;
   border-radius: 10px;
   background-color: #c296ec;
+  color: black;
+  font-weight: semibild;
+  margin-bottom: 20px;
+}
+
+.main-nav-button-now {
+  height: 30px;
+  font-size: 1rem;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #7f36c4;
   color: black;
   font-weight: semibild;
   margin-bottom: 20px;
@@ -56,11 +69,14 @@ body {
 
 /*TAG PROJECT*/
 
+.tag-pool{
+  display:flex;
+  gap:40px;
+
+}
+
 .tag-bubble {
-  height: 200px;
-  border: 3px solid #d0b1ed;
-  border-radius: 30px;
-  margin-bottom: 50px;
+  width:100%;
   padding: 20px;
   display:flex;
   flex-wrap:wrap;
@@ -69,6 +85,38 @@ body {
   align-content: flex-start;
   gap:7px;
 }
+
+.my-tags {
+  height: 100%;
+}
+
+.all-tags {
+  height: 85%;
+}
+
+.tag-bubble-frame-my-tags {
+  width:400px;
+  height: 200px;
+  background-color:burlywood;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.tag-bubble-frame-all-tags {
+  width:400px;
+  height: 200px;
+  background-color:cornsilk;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.see-more-tags{
+  color:white;
+  font-size:40px;
+  width:40px;
+  padding-bottom:30px;
+}
+
 
 .sound-tag{
   background-color:blueviolet;
@@ -97,7 +145,6 @@ body {
   align-items: center;
   background-color: #d0b1ed;
   border-radius: 75px;
-  box-shadow: -5px -5px 8px 1px rgba(255, 255, 255, 0.5);
   padding: 40px;
   gap: 40px;
 }
@@ -203,13 +250,10 @@ h4 {
 }
 
 .sound-file {
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;
-  align-items:flex-end;
-  background-color:black;
+  background-color:#7f36c4;
+  padding-left:20px;
   border-radius:50px;
-  height:80px;
+  height:50px;
 
 }
 
