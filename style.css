@@ -31,6 +31,12 @@ footer{
   margin-top:40px;
 }
 
+.bubble{
+  border: 3px solid var(--light);
+  border-radius: 50%;
+  box-shadow: 2px 2px 15px  pink, -2px -2px 15px  yellow; 
+}
+
 .main-nav-button {
   height: 30px;
   font-size: 1rem;
@@ -60,9 +66,20 @@ body {
   padding: 20px;
   background-color: black;
   color: white;
+  border:2px solid yellow;
 }
 
 /*TEXT AND ARTICLES*/
+
+.first{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  border: 2px solid green
+  row-gap:40px;
+  column-gap:30px;
+
+}
 
 .loremipsum {
   margin-bottom: 50px;
@@ -72,15 +89,15 @@ body {
   border-bottom: 1px solid #5058e9;
   padding-top: 15px;
   padding-bottom: 15px;
+  width:100%;
 }
 
 .text-container{
-display:flex;
-flex-wrap:wrap;
+border:2px solid pink;
 }
 
 .text-section{
-width:500px;
+max-width:700px;
 }
 
 /*CONTACT*/
@@ -89,10 +106,13 @@ h3{
   margin:0px;
 }
 
-.bubble{
-  border: 3px solid var(--light);
-  border-radius: 50%;
-  box-shadow: 2px 2px 15px  pink 
+.contact-container{
+  
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap:30px;
+  margin-bottom: 50px;
 }
 
 .contact-bubble {
@@ -106,9 +126,12 @@ h3{
   
 }
 
+/*SPACE CRUISE*/
+
 .cruise-bubble {
-  height: 400px;
-  width: 400px;
+
+  max-width:400px;
+  height:400px;
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -116,13 +139,6 @@ h3{
   padding:20px;
   margin-bottom:80px;
   
-  
-}
-
-.contact-container{
-  display:flex;
-  gap:30px;
-  margin-bottom: 50px;
 }
 
 /*TAG PROJECT*/
@@ -192,11 +208,13 @@ h3{
   flex-wrap: wrap;
   gap: 40px;
   margin-bottom: 50px;
+  
 }
 
 .social {
   height: 280px;
   width: 600px;
+  max-width:100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
