@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&family=Zen+Kurenaido&display=swap");
+@import url("/styles/sound.css");
+@import url("/styles/social.css");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --light: #d0b1ed;
+  --highlight: #5058e9;
+  --accent: #7f36c4;
+}
+
+/*GENERAL ELEMENTS*/
+
+html {
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+h1 {
+  color: var(--light);
+  font-size: 50px;
+  margin: 0px;
+}
+
+nav {
+  margin-bottom: 60px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  position: fixed;
+}
+
+hr {
+  color: hotpink;
+  margin-bottom: 80px;
+  style: dotted;
+}
+
+ul {
+  list-style-type: none;
+  letter-spacing: 3px;
+  margin-left: -20px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.bubble {
+  border: 3px solid var(--light);
+  border-radius: 50%;
+  box-shadow: 2px 2px 15px pink, -2px -2px 15px yellow;
+}
+
+.main-nav-button {
+  height: 30px;
+  font-size: 1rem;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: var(--light);
+  color: black;
+  font-weight: semibild;
+  margin-bottom: 20px;
+}
+
+.main-nav-button-now {
+  height: 30px;
+  font-size: 1rem;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #7f36c4;
+  color: black;
+  font-weight: semibild;
+  margin-bottom: 20px;
+}
+
+body {
+  margin: 90px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+/*TEXT AND ARTICLES*/
+
+.first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 30px;
+  margin-top: 200px;
+}
+
+.loremipsum {
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  border-top: 1px solid #5058e9;
+  border-bottom: 1px solid #5058e9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  letter-spacing: 1.5px;
+}
+
+.text-container {
+}
+
+.text-section {
+  max-width: 700px;
+}
+
+/*CONTACT*/
+
+h3 {
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.contact-bubble {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/*SPACE CRUISE*/
+
+.cruise-bubble {
+  max-width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+/*SOUND FILES*/
+
+.sound-library-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.sound-container {
+  height: 280px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--light);
+  border-radius: 60px;
+  padding: 40px;
+  gap: 40px;
+}
+
+/* sound info: alles, was rechts neben dem Bild ist */
+
+.sound-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+.sound-info {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* sound-text: kompletter text */
+
+.sound-text {
+  color: black;
+  display: flex;
+  font-size: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sound-file {
+  border: 3px solid var(--accent);
+  color: #5c2192;
+  padding-left: 20px;
+  border-radius: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sound-name {
+  background-color: var(--light);
+  font-size: 1.6rem;
+  color: black;
+  margin: 0px;
+}
+
+.individual-tag-bubble {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 7px;
+}
+
+.tag-small {
+  background-color: var(--accent);
+  padding: 10px;
+  font-size: 10px;
+  height: 30px;
+  display: inline;
+  border-radius: 8px;
+  margin: 0px;
+}
