@@ -40,7 +40,6 @@ h1 {
   margin-top: 200px;
 }
 
-
 header {
   position: fixed;
 }
@@ -67,7 +66,6 @@ footer {
   box-shadow: 2px 2px 15px pink, -2px -2px 15px yellow;
 }
 
-
 /*NAVIGATION*/
 
 nav {
@@ -86,19 +84,19 @@ nav {
   color: black;
   font-weight: semibold;
   margin-bottom: 20px;
-  text-decoration:none;
+  text-decoration: none;
 }
 
-.main-nav-button:hover{
+.main-nav-button:hover {
   background-color: black;
   color: var(--light);
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .main-nav-button.now {
   background-color: black;
   color: var(--light);
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 /*TEXT AND ARTICLES*/
