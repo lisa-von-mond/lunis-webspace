@@ -18,6 +18,13 @@ html {
   font-family: "Zen Kurenaido", sans-serif;
 }
 
+body {
+  margin: 90px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
 h1 {
   color: var(--light);
   font-size: 50px;
@@ -57,10 +64,11 @@ footer {
   box-shadow: 2px 2px 15px pink, -2px -2px 15px yellow;
 }
 
+/*NAVIGATION*/
+
 .main-nav-button {
-  height: 30px;
-  font-size: 1rem;
-  padding: 5px;
+  font-size: 1.8em;
+  padding: 8px 16px 12px 16px;
   margin-right: 20px;
   border-radius: 10px;
   background-color: var(--light);
@@ -69,23 +77,8 @@ footer {
   margin-bottom: 20px;
 }
 
-.main-nav-button-now {
-  height: 30px;
-  font-size: 1rem;
-  padding: 5px;
-  margin-right: 20px;
-  border-radius: 10px;
+.main-nav-button.now {
   background-color: #7f36c4;
-  color: black;
-  font-weight: semibild;
-  margin-bottom: 20px;
-}
-
-body {
-  margin: 90px;
-  padding: 20px;
-  background-color: black;
-  color: white;
 }
 
 /*TEXT AND ARTICLES*/
