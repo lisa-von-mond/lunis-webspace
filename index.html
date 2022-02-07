@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
     <header>
     <h1>LISA VON MOND</h1>
     <nav>
-        <a href="" class="main-nav-button-now">HOME</a>
+        <a href="" class="main-nav-button now">HOME</a>
         <a class="main-nav-button">CNTCT</a>
         <a class="main-nav-button">BIO</a>
         <a href="sound-library.html" alt="" class="main-nav-button" oneclick="sound-library.html">SOUND</a>
@@ -21,14 +21,16 @@
 
 <main>
 
+<div class="first">
+
 <!---ARTICLE 1-->
 
-<div class="text-pool">
-<article>
+<div class="text-container">
+<article class="text-section">
 <h2>Welcome to my space</h2>
 <p class="loremipsum">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem totam quo quos iste animi laudantium voluptate suscipit rerum recusandae error? Ab ullam sed, beatae deserunt eveniet voluptates quod possimus animi.</p>
 </article>
-<article>
+<article class="text-section">
 <h2>Fly with me to the moon</h2>
 <p class="loremipsum">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt necessitatibus natus eveniet non quaerat laudantium est adipisci vero debitis. Illum fugit tempora sapiente, cumque recusandae incidunt asperiores nostrum quae inventore.
 </p>
@@ -38,25 +40,27 @@
 <!----CONTACT INFO-->
 
 <aside class="contact-container">
-<aside class="contact-bubble">
-<h3>MAIL ME</h3>
+<aside class="contact-bubble bubble">
+<h3>Mail me</h3>
 <p><a href="mailto:lisalue@posteo.de"></a>lisalue@posteo.de</a></p>
 </aside>
 
-<aside class="contact-bubble">
-    <h3>CALL ME</h3>
+<aside class="contact-bubble bubble">
+    <h3>Call me</h3>
 <p>0000 0000000</p>
 </aside>
 </aside>
 
+</div>
+
 <!---ARTICLE 2-->
 
-<div class="text-pool">
-    <article>
+<div class="text-container">
+    <article class="text-section">
     <h2>About my journey to pluto</h2>
     <p class="loremipsum">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem totam quo quos iste animi laudantium voluptate suscipit rerum recusandae error? Ab ullam sed, beatae deserunt eveniet voluptates quod possimus animi.</p>
     </article>
-    <article>
+    <article class="text-section">
     <h2>Discovering new galaxies</h2>
     <p class="loremipsum">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt necessitatibus natus eveniet non quaerat laudantium est adipisci vero debitis. Illum fugit tempora sapiente, cumque recusandae incidunt asperiores nostrum quae inventore.
     </p>
@@ -65,17 +69,17 @@
 
 <!-----SOCIAL-->
 
-<div class="social-container">
+<div class="social__container">
 
 <section class="social">
-    <img src="https://nf-assets.vercel.app/github@2x.png" alt="my GitHub pic" class="social-pic">
-    <div class="social-info">
-             <div class="social-text">
+    <img src="https://nf-assets.vercel.app/github@2x.png" alt="my GitHub pic" class="social__pic">
+    <div class="social__info">
+             <div class="social__text">
                     <h4>GITHUB</h4>
                     <p>See my cool repos</p>
             </div>
-            <div class="social-link-cnt">
-                <p class="social-link"><a href="" alt="my">@lisa-von-mond</a></p>
+            <div class="social__link__cnt">
+                <a class="social__link" href="" alt="my">@lisa-von-mond</a>
                 <p class="unicode">GO</p>
            
             </div>
@@ -83,37 +87,37 @@
 </section>
 
 <section class="social">
-    <img src="https://lisalue.com/wp-content/uploads/2021/04/ahgsf2l9.gif" alt="my GitHub pic" class="social-pic">
-    <div class="social-info">
-        <div class="social-text">
-        <h4 class="social-headline;">SOUNDCLOUD</h4>
+    <img src="https://lisalue.com/wp-content/uploads/2021/04/ahgsf2l9.gif" alt="my GitHub pic" class="social__pic">
+    <div class="social__info">
+        <div class="social__text">
+        <h4 class="social__headline;">SOUNDCLOUD</h4>
         <p>Listen to my dreamtunes</p></div>
-        <div class="social-link-cnt">
-            <p class="social-link"><a href="" alt="my">soundcloud.com/lisavonmond</a></p>
+        <div class="social__link__cnt">
+            <a class="social__link" href="" alt="my">soundcloud.com/lisavonmond</a>
             <p class="unicode">GO</p></div>
     </div>
 </section>
 
 <section class="social">
-    <img src="images/mood7.jpg" alt="my GitHub pic" class="social-pic">
-    <div class="social-info">
-        <div class="social-text">
-        <h4 class="social-headline;">LINKEDIN</h4>
+    <img src="images/mood7.jpg" alt="my GitHub pic" class="social__pic">
+    <div class="social__info">
+        <div class="social__text">
+        <h4 class="social__headline;">LINKEDIN</h4>
         <p>Learn more about my journey</p></div>
-        <div class="social-link-cnt">
-            <p class="social-link"><a href="" alt="my">no link available yet</a></p>
+        <div class="social__link__cnt">
+            <a class="social__link" href="" alt="my">no link available yet</a>
             <p class="unicode">GO</p></div>
     </div>
 </section>
 
 <section class="social">
-    <img src="images/mood9.jpg" alt="my GitHub pic" class="social-pic">
-    <div class="social-info">
-        <div class="social-text">
-        <h4 class="social-headline;">FACEBOOK</h4>
+    <img src="images/mood9.jpg" alt="my GitHub pic" class="social__pic">
+    <div class="social__info">
+        <div class="social__text">
+        <h4 class="social__headline;">FACEBOOK</h4>
         <p>Check out my virtual identity</p></div>
-        <div class="social-link-cnt">
-            <p class="social-link"><a href="" alt="my">no link available yet</a></p>
+        <div class="social__link__cnt">
+            <a class="social__link" href="" alt="my">no link available yet</a>
                 <p class="unicode">GO</p></div>
     </div>
 </section>
@@ -121,13 +125,13 @@
 </div>
 
 <article>
-    <h3>Let's sync our charts</h3>
+    <h2>Let's sync our charts</h2>
     <p class="loremipsum">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi libero qui dolores repellat laudantium? Aliquam nihil commodi fuga facilis molestiae est deleniti unde, corporis voluptate, animi et beatae accusantium provident.</p>
 </article>
 
-<aside class="cruise-bubble">
+<aside class="cruise-bubble bubble">
 <aside>
-    <h3>MY GALAXY CRUISE</h3>
+    <h3>My galaxy cruise</h3>
     <ul>
         <li><b>2008:</b> earth</li>
         <li><b>2010:</b> mars </li>
