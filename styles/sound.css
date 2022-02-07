@@ -1,0 +1,59 @@
+/*TAG PROJECT*/
+
+.tag-pool{
+    display:flex;
+    gap:40px;
+  
+  }
+  
+  .tag-bubble {
+    width:100%;
+    padding: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-items:flex-start;
+    align-content: flex-start;
+    gap:7px;
+  }
+  
+  .my-tags {
+    height: 100%;
+  }
+  
+  .all-tags {
+    height: 85%;
+  }
+  
+  .tag-bubble-frame-my-tags {
+    width:400px;
+    height: 200px;
+    background-color:burlywood;
+    border-radius: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .tag-bubble-frame-all-tags {
+    width:400px;
+    height: 200px;
+    background-color:cornsilk;
+    border-radius: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .see-more-tags{
+    color:white;
+    font-size:40px;
+    width:40px;
+    padding-bottom:30px;
+  }
+  
+  
+  .sound-tag{
+    background-color:var(--accent);
+    padding:10px;
+    height:40px;
+    display:inline;
+    border-radius:8px;
+    margin:0px;
+  }
